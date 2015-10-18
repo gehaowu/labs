@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title:            Site Title
-locale:           en_US
-url:
+title:            Haowu Ge
+locale:           zh_CN
+url:              //www.gehaowu.com/hh
 
 
 # Jekyll configuration
@@ -26,21 +26,21 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
+  name: Haowu Ge
   avatar: bio-photo.jpg
   bio: "Describe your self."
-  email:
-  disqus-shortname:
-  twitter: #username
-  facebook: #username
+  email: ghw@7axu.cn
+  disqus-shortname: gehaowu
+  twitter: gehaowu
+  facebook: gehaowu
   google:
-    plus: #username
+    plus: gehaowu
     analytics:
     verify:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: ghw
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
   xing: #username
