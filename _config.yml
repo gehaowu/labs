@@ -1,9 +1,9 @@
 # Site wide configuration
 
 title:            Haowu Ge
-locale:           zh_CN
-url:              //www.gehaowu.com/hh
-
+locale:           zh-Hans
+url:              //www.gehaowu.com/labs
+base:               labs
 
 # Jekyll configuration
 
@@ -35,7 +35,7 @@ owner:
   facebook: gehaowu
   google:
     plus: gehaowu
-    analytics:
+    analytics: false
     verify:
     ad-client:
     ad-slot:
