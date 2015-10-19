@@ -30,7 +30,7 @@ owner:
   name: Haowu Ge
   avatar: myphoto.jpg
   bio: "Describe your self."
-  email: ghw@7axu.cn
+  email:
   disqus-shortname: gehaowu
   twitter: gehaowu
   facebook: gehaowu
@@ -41,7 +41,7 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: ghw
+  github:
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
   xing: #username
@@ -57,6 +57,10 @@ owner:
   weibo: #username
   flickr: #username
   codepen: #username
+  aliyun: /go/aliyun
+  digitalocean: /go/digitalocean
+  namesilo: /go/namesilo
+  qiniu: /go/qiniu
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
