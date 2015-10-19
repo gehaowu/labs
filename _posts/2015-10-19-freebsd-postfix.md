@@ -1,14 +1,10 @@
 ---
 layout: post
-title: Sample Post
-excerpt: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
-modified: 2013-05-31
-tags: [intro, beginner, jekyll, tutorial]
+title: 基于 FreeBSD 的邮件服务实践
+excerpt: "基于 FreeBSD 操作系统的 Postfix, Dovecot, PostgreSQL, SASL, Postfixadmin 邮件构建方案。"
+modified: 2015-10-19
+tags: [FreeBSD, Postfix, PostgreSQL, Mail]
 comments: true
-image:
-  feature: sample-image-5.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
 <section id="table-of-contents" class="toc">

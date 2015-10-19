@@ -2,7 +2,7 @@
 
 title:            Haowu Ge
 locale:           zh-Hans
-url:              //www.gehaowu.com/labs
+url:              https://www.gehaowu.com/labs
 base:               labs
 
 # Jekyll configuration
@@ -29,7 +29,7 @@ kramdown:
 owner:
   name: Haowu Ge
   avatar: myphoto.jpg
-  bio: "Describe your self."
+  bio: "Welcome to My Labs!"
   email:
   disqus-shortname: gehaowu
   twitter: gehaowu
