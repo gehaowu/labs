@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 基于 FreeBSD 的邮件服务实践
+title: FreeBSD 操作系统下邮件服务器构建指南
 excerpt: "基于 FreeBSD 操作系统的 Postfix, Dovecot, PostgreSQL, SASL, Postfixadmin 邮件构建方案。"
 modified: 2015-10-19
 tags: [FreeBSD, Postfix, PostgreSQL, Mail]
@@ -9,7 +9,7 @@ comments: true
 
 <section id="table-of-contents" class="toc">
   <header>
-    <h3>Overview</h3>
+    <h3>全文概览</h3>
   </header>
 <div id="drawer" markdown="1">
 *  Auto generated table of contents
@@ -17,19 +17,13 @@ comments: true
 </div>
 </section><!-- /#table-of-contents -->
 
-## HTML Elements
+##### 操作系统更新及一些优化
 
-Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
+##### 邮件相关服务软件安装
 
-# Heading 1
+##### 邮件系统配置
 
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
+##### 邮件反垃圾
 
 ###### Heading 6
 
@@ -43,10 +37,6 @@ Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nulla
 *This is emphasized*. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H2O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times (That’s a citation). Underline.Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
 
 HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.
-
-### Blockquotes
-
-> Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.
 
 ## List Types
 
@@ -95,9 +85,9 @@ Make any link standout more when applying the `.btn` class.
 <a href="#" class="btn btn-success">Success Button</a>
 {% endhighlight %}
 
-<div markdown="0"><a href="#" class="btn">Primary Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-success">Success Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-warning">Warning Button</a></div>
+<div markdown="0"><a href="#" class="btn">Primary Button</a>
+<a href="#" class="btn btn-success">Success Button</a>
+<a href="#" class="btn btn-warning">Warning Button</a></div>
 <div markdown="0"><a href="#" class="btn btn-danger">Danger Button</a></div>
 <div markdown="0"><a href="#" class="btn btn-info">Info Button</a></div>
 
